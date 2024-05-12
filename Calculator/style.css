@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.text {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-radius: 13px;
+    grid-area: header;
+    font-size: 39px;
+    padding: 0px 10px;
+    height: 85px;
+    width: 330px;
+    overflow:auto;
+}
+
+.btn {
+    cursor: pointer;
+    grid-area: btns;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: #3c6e71;
+    color: white;
+    font-size: 22px;
+    border-radius: 17px;
+}
+
+.btn:hover {
+    background-color: #3c6e71b9;
+}
+
+
+.btn1 {
+    grid-area: btn1;
+    background-color: #007f5f;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 17px;
+}
+
+.btn1:hover{
+    background-color: #007f5fc3;
+}
+
+.btn2 {
+    grid-area: btn2;
+}
+
+.btn3 {
+    grid-area: btn3;
+}
+
+.btn4 {
+    grid-area: btn4;
+}
+
+.btn5 {
+    grid-area: btn5;
+}
+
+.btn6 {
+    grid-area: btn6;
+}
+
+.btn7 {
+    grid-area: btn7;
+}
+
+.btn8 {
+    grid-area: btn8;
+}
+
+.btn9 {
+    grid-area: btn9;
+}
+
+.btn10 {
+    grid-area: btn10;
+}
+
+.btn11 {
+    grid-area: btn11;
+}
+
+.btn12 {
+    grid-area: btn12;
+}
+
+.btn13 {
+    grid-area: btn13;
+}
+
+.btn14 {
+    grid-area: btn14;
+}
+
+.btn15 {
+    grid-area: btn15;
+}
+
+.solve {
+    grid-area: solvebtn;
+    background-color: #007f5f;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 17px;
+}
+
+.solve:hover{
+    background-color: #007f5fc3;
+}
+
+
+.cal-box {
+    border-radius: 20px;
+    height: 420px;
+    width: 600px;
+    display: grid;
+    grid-template-areas:
+        'header header header btn1   btn2'
+        'btn3     btn4    btn5   btn6   btn7'
+        'btn8     btn9    btn10   btn11   btn12'
+        'btn13     btn14    btn15  solvebtn   solvebtn';
+    background-color: #353535;
+    row-gap: 20px;
+    column-gap: 17px;
+    padding: 17px;
+}
